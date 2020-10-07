@@ -33,7 +33,7 @@ apply {
 
 
 springBoot {
-    mainClass = "ru.lionzxy.techDb.service.ApplicationKt"
+    mainClass = "ru.mail.park.db.service.ApplicationKt"
 }
 
 
@@ -42,8 +42,8 @@ swagger {
 
     output = "build/swagger"
     language = "spring"
-    additionalProperties = mapOf("modelPackage" to "ru.lionzxy.techDb.hello.model",
-            "apiPackage" to "ru.lionzxy.techDb.hello.api",
+    additionalProperties = mapOf("modelPackage" to "ru.mail.park.db.hello.model",
+            "apiPackage" to "ru.mail.park.db.hello.api",
             "serializableModel" to "true",
             "dateLibrary" to "kotlin")
 }

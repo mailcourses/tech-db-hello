@@ -2,9 +2,9 @@ package service
 
 import (
 	"fmt"
-	"github.com/bozaro/tech-db-hello/golang/models"
-	"github.com/bozaro/tech-db-hello/golang/modules/assets/assets_db"
-	"github.com/bozaro/tech-db-hello/golang/restapi/operations"
+	"github.com/mailcourses/technopark-dbms-init/golang/models"
+	"github.com/mailcourses/technopark-dbms-init/golang/modules/assets/assets_db"
+	"github.com/mailcourses/technopark-dbms-init/golang/restapi/operations"
 	"github.com/go-openapi/runtime/middleware"
 	"github.com/jmoiron/sqlx"
 	"github.com/rubenv/sql-migrate"
@@ -38,7 +38,7 @@ type DatabaseType struct {
 }
 
 var supportedDatabases = []DatabaseType{
-	{"sqlite3", "SQLite3 database", "sqlite3:tech-db-hello.db", NewHelloSQLite},
+	{"sqlite3", "SQLite3 database", "sqlite3:technopark-dbms-init.db", NewHelloSQLite},
 	{"postgres", "PostgreSQL database", "postgres://docker:docker@localhost/docker", NewHelloPgSQL},
 }
 

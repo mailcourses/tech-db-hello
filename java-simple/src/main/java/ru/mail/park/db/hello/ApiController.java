@@ -1,4 +1,4 @@
-package ru.mail.park.db.hello;
+package ru.mail.park.db.init;
 
 import static org.springframework.http.HttpStatus.CREATED;
 

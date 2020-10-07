@@ -1,4 +1,4 @@
-package ru.mail.park.db.hello;
+package ru.mail.park.db.init;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

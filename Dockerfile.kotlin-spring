@@ -48,7 +48,7 @@ USER root
 RUN apt-get install -y openjdk-8-jdk-headless
 
 # Копируем исходный код в Docker-контейнер
-ENV WORK /opt/tech-db-hello
+ENV WORK /opt/technopark-dbms-init
 ADD kotlin-spring/ $WORK/kotlin-spring/
 ADD common/ $WORK/common/
 

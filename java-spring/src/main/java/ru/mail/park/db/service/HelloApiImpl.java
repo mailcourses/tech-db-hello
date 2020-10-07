@@ -1,4 +1,4 @@
-package ru.bozaro.techDb.service;
+package ru.mail.park.db.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

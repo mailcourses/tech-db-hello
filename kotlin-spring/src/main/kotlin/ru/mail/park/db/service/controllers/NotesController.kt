@@ -1,4 +1,4 @@
-package ru.lionzxy.techDb.service.controllers
+package ru.mail.park.db.service.controllers
 
 import javassist.tools.web.BadHttpRequest
 import org.springframework.beans.factory.annotation.Autowired
@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.stereotype.Controller
-import ru.lionzxy.techDb.hello.api.ApiApi
-import ru.lionzxy.techDb.hello.model.Item
-import ru.lionzxy.techDb.service.data.NotesData
-import ru.lionzxy.techDb.service.models.NotFoundNoteException
+import ru.mail.park.db.hello.api.ApiApi
+import ru.mail.park.db.hello.model.Item
+import ru.mail.park.db.service.data.NotesData
+import ru.mail.park.db.service.models.NotFoundNoteException
 import java.math.BigDecimal
 
 

@@ -1,4 +1,4 @@
-module github.com/bozaro/tech-db-hello/golang
+module github.com/mailcourses/technopark-dbms-init/golang
 
 require (
 	github.com/dre1080/recover v0.0.0-20150930082637-1c296bbb3227

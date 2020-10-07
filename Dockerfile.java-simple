@@ -45,7 +45,7 @@ USER root
 RUN apt-get install -y openjdk-9-jdk-headless
 
 # Копируем исходный код в Docker-контейнер
-ENV WORK /opt/tech-db-hello
+ENV WORK /opt/technopark-dbms-init
 ADD java-simple/ $WORK/java-simple/
 ADD common/ $WORK/common/
 

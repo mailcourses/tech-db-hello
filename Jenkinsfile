@@ -16,7 +16,7 @@ for (lang in langs) {
         }
         stage("Build: $lang") {
             sh """
-docker build -t tech-db-hello-$lang -f Dockerfile.$lang .
+docker build -t technopark-dbms-init-$lang -f Dockerfile.$lang .
 """
         }
       }

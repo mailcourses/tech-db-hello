@@ -2,7 +2,7 @@ package service
 
 import (
 	"fmt"
-	"github.com/bozaro/tech-db-hello/golang/restapi/operations"
+	"github.com/mailcourses/technopark-dbms-init/golang/restapi/operations"
 	"github.com/go-openapi/runtime/middleware"
 	_ "github.com/lib/pq"
 )

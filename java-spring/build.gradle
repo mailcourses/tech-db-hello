@@ -24,7 +24,7 @@ repositories {
 }
 
 springBoot {
-    mainClass = 'ru.bozaro.techDb.service.HelloApplication'
+    mainClass = 'ru.mail.park.db.service.HelloApplication'
 }
 
 swagger {
@@ -34,8 +34,8 @@ swagger {
     language = 'spring'
 
     additionalProperties = [
-            'modelPackage'     : 'ru.bozaro.techDb.hello.model',
-            'apiPackage'       : 'ru.bozaro.techDb.hello.api',
+            'modelPackage'     : 'ru.mail.park.db.hello.model',
+            'apiPackage'       : 'ru.mail.park.db.hello.api',
             'serializableModel': 'true',
             'dateLibrary'      : 'java8',
     ]

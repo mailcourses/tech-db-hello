@@ -1,4 +1,4 @@
-package ru.lionzxy.techDb.service
+package ru.mail.park.db.service
 
 import com.fasterxml.jackson.annotation.JsonInclude
 import com.fasterxml.jackson.databind.DeserializationFeature

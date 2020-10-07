@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/bozaro/tech-db-hello/golang/modules/assets/assets_ui"
-	"github.com/bozaro/tech-db-hello/golang/modules/service"
-	"github.com/bozaro/tech-db-hello/golang/restapi/operations"
+	"github.com/mailcourses/technopark-dbms-init/golang/modules/assets/assets_ui"
+	"github.com/mailcourses/technopark-dbms-init/golang/modules/service"
+	"github.com/mailcourses/technopark-dbms-init/golang/restapi/operations"
 	"github.com/dre1080/recover"
 	assetfs "github.com/elazarl/go-bindata-assetfs"
 	"github.com/go-openapi/errors"
@@ -19,7 +19,7 @@ import (
 // This file is safe to edit. Once it exists it will not be overwritten
 
 type DatabaseFlags struct {
-	Database string `long:"database" description:"database connection parameters" default:"sqlite3:tech-db-hello.db"`
+	Database string `long:"database" description:"database connection parameters" default:"sqlite3:technopark-dbms-init.db"`
 }
 
 var dbFlags DatabaseFlags

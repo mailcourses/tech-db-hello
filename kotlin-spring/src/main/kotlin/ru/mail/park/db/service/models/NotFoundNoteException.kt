@@ -1,3 +1,3 @@
-package ru.lionzxy.techDb.service.models
+package ru.mail.park.db.service.models
 
 class NotFoundNoteException() : RuntimeException() {}

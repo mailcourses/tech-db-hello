@@ -44,8 +44,8 @@ swagger {
     language = 'spring'
 
     additionalProperties = [
-            'modelPackage'     : 'ru.lionzxy.techDb.hello.model',
-            'apiPackage'       : 'ru.lionzxy.techDb.hello.api',
+            'modelPackage'     : 'ru.mail.park.db.hello.model',
+            'apiPackage'       : 'ru.mail.park.db.hello.api',
             'serializableModel': 'true',
             'dateLibrary'      : 'kotlin',
     ]
@@ -68,7 +68,7 @@ sourceSets {
 }
 
 springBoot {
-    mainClass = 'ru.lionzxy.techDb.service.ApplicationKt'
+    mainClass = 'ru.mail.park.db.service.ApplicationKt'
 }
 
 task wrapper(type: Wrapper) {

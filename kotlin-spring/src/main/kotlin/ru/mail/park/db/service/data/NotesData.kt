@@ -1,10 +1,10 @@
-package ru.lionzxy.techDb.service.data
+package ru.mail.park.db.service.data
 
 import org.springframework.jdbc.core.JdbcTemplate
 import org.springframework.jdbc.core.RowMapper
 import org.springframework.stereotype.Component
-import ru.lionzxy.techDb.hello.model.Item
-import ru.lionzxy.techDb.service.models.NotFoundNoteException
+import ru.mail.park.db.hello.model.Item
+import ru.mail.park.db.service.models.NotFoundNoteException
 import java.math.BigDecimal
 import java.sql.Connection
 import java.sql.Statement
