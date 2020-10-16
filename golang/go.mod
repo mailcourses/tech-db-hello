@@ -1,34 +1,40 @@
 module github.com/mailcourses/technopark-dbms-init/golang
 
+go 1.15
+
 require (
-	github.com/dre1080/recover v0.0.0-20150930082637-1c296bbb3227
-	github.com/elazarl/go-bindata-assetfs v1.0.0
-	github.com/facebookgo/stack v0.0.0-20160209184415-751773369052 // indirect
-	github.com/fatih/color v1.7.0 // indirect
-	github.com/go-openapi/analysis v0.18.0 // indirect
-	github.com/go-openapi/errors v0.18.0
-	github.com/go-openapi/inflect v0.18.0 // indirect
-	github.com/go-openapi/loads v0.18.0
-	github.com/go-openapi/runtime v0.18.0
-	github.com/go-openapi/spec v0.18.0
-	github.com/go-openapi/strfmt v0.18.0
-	github.com/go-openapi/swag v0.18.0
-	github.com/go-openapi/validate v0.18.0
-	github.com/go-swagger/go-swagger v0.18.0
-	github.com/gorilla/handlers v1.4.0 // indirect
+	github.com/asaskevich/govalidator v0.0.0-20200907205600-7a23bdc65eef // indirect
+	github.com/dre1080/recovr v1.0.3
+	github.com/elazarl/go-bindata-assetfs v1.0.1
+	github.com/go-openapi/errors v0.19.7
+	github.com/go-openapi/loads v0.19.5
+	github.com/go-openapi/runtime v0.19.22
+	github.com/go-openapi/spec v0.19.9
+	github.com/go-openapi/strfmt v0.19.6
+	github.com/go-openapi/swag v0.19.9
+	github.com/go-openapi/validate v0.19.11
+	github.com/go-swagger/go-swagger v0.25.0
+	github.com/gorilla/handlers v1.5.1 // indirect
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/jmoiron/sqlx v1.2.0
 	github.com/jteeuwen/go-bindata v3.0.7+incompatible
-	github.com/lib/pq v1.0.0
-	github.com/mailru/easyjson v0.0.0-20180823135443-60711f1a8329
-	github.com/mattn/go-colorable v0.1.0 // indirect
-	github.com/mattn/go-isatty v0.0.4 // indirect
-	github.com/mattn/go-sqlite3 v1.10.0
-	github.com/rubenv/sql-migrate v0.0.0-20190212093014-1007f53448d7
-	github.com/spf13/viper v1.3.1 // indirect
-	github.com/toqueteos/webbrowser v1.1.0 // indirect
-	github.com/tylerb/graceful v1.2.15
-	golang.org/x/net v0.0.0-20190213061140-3a22650c66bd
-	golang.org/x/tools v0.0.0-20190219035721-0a7d439b5fa8 // indirect
-	gopkg.in/gorp.v1 v1.7.2 // indirect
+	github.com/karrick/godirwalk v1.16.1 // indirect
+	github.com/kr/pretty v0.2.1 // indirect
+	github.com/lib/pq v1.8.0
+	github.com/logrusorgru/aurora v2.0.3+incompatible // indirect
+	github.com/magiconair/properties v1.8.4 // indirect
+	github.com/mailru/easyjson v0.7.6
+	github.com/mattn/go-sqlite3 v1.14.4
+	github.com/mitchellh/mapstructure v1.3.3 // indirect
+	github.com/pelletier/go-toml v1.8.1 // indirect
+	github.com/rubenv/sql-migrate v0.0.0-20200616145509-8d140a17f351
+	github.com/sirupsen/logrus v1.7.0 // indirect
+	github.com/spf13/afero v1.4.1 // indirect
+	github.com/spf13/viper v1.7.1 // indirect
+	go.mongodb.org/mongo-driver v1.4.2 // indirect
+	golang.org/x/crypto v0.0.0-20201012173705-84dcc777aaee // indirect
+	golang.org/x/net v0.0.0-20201010224723-4f7140c49acb
+	golang.org/x/sys v0.0.0-20201015000850-e3ed0017c211 // indirect
+	golang.org/x/tools v0.0.0-20201015182029-a5d9e455e9c4 // indirect
+	gopkg.in/ini.v1 v1.62.0 // indirect
 )

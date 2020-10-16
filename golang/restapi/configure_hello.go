@@ -2,18 +2,17 @@ package restapi
 
 import (
 	"crypto/tls"
-	"log"
 	"net/http"
 	"strings"
 
-	"github.com/mailcourses/technopark-dbms-init/golang/modules/assets/assets_ui"
-	"github.com/mailcourses/technopark-dbms-init/golang/modules/service"
-	"github.com/mailcourses/technopark-dbms-init/golang/restapi/operations"
-	"github.com/dre1080/recover"
+	"github.com/dre1080/recovr"
 	assetfs "github.com/elazarl/go-bindata-assetfs"
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/swag"
+	"github.com/mailcourses/technopark-dbms-init/golang/modules/assets/assets_ui"
+	"github.com/mailcourses/technopark-dbms-init/golang/modules/service"
+	"github.com/mailcourses/technopark-dbms-init/golang/restapi/operations"
 )
 
 // This file is safe to edit. Once it exists it will not be overwritten
@@ -76,9 +75,7 @@ func setupMiddlewares(handler http.Handler) http.Handler {
 // The middleware configuration happens before anything, this middleware also applies to serving the swagger.json document.
 // So this is a good place to plug in a panic handling middleware, logging and metrics
 func setupGlobalMiddleware(handler http.Handler) http.Handler {
-	recovery := recover.New(&recover.Options{
-		Log: log.Print,
-	})
+	recovery := recovr.New()
 	return recovery(uiMiddleware(handler))
 }
 
